@@ -1,0 +1,8 @@
+def list_sort(lst):
+    lst.sort(key=lambda x: abs(x), reverse=True)
+    return lst
+
+# Тесты
+print(list_sort([1, 2, 32]))
+print(list_sort([19, 8.2, -23, 87, 2, 3]))
+print(list_sort([-38, -0.23, -0.45, 32.2, 18.13, 11, 31]))
